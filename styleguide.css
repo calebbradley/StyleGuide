@@ -1,0 +1,247 @@
+
+/*YELLOW BUTTON BEGINS*/
+
+button  {
+  width: 360px;
+  height: 60px;
+  margin: 20px 0px;
+  border: 1px solid #C98F20;
+  border-radius: 6px;
+  background: linear-gradient(to bottom, #fedb31 0%,#e8a526 100%);
+  font-family: Futura-Light, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-shadow: 0px 1px 1px rgba(171, 105, 25, 1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: relative;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #fcd216 0%,#e09c1f 100%);
+}
+
+/* YELLOW BUTTON ENDS */
+
+
+/*IMAGE OVERLAY BAR BEGINS*/
+
+.image-overlay {
+  width: 628px;
+  height: 55px;
+  background: #000000;
+  opacity: 0.45;
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  font-size: 18px;
+  color: red;
+  text-align: center; 
+
+}
+
+/*IMAGE OVERLAY BAR ENDS*/
+
+
+/*BEGINER TABLE BEGINS*/
+
+.upcoming-mobs .upcoming {
+  width: 625px;
+  height: 165px;
+  float: left;
+  box-shadow: none;
+  margin-top: 144px;
+}
+
+.upcoming-mobs  table .name {
+  color: #414141;
+  font-size: 13px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.upcoming-mobs  table .needed {
+  color: #414141;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 60px;
+}
+
+.upcoming-mobs  table .date {
+  color: #787878;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 80px;
+}
+
+ td {
+  border: 1px solid #B1B1B1;
+  border-right: 0px;
+  border-left: 0px;
+  padding: 13px 0px 13px 0px;
+}
+
+ tr:first-child td{
+  border-top: 0px;
+}
+
+ tr:last-child td{
+  border-bottom: 0px;
+}
+
+/*BEGINNER TABLE ENDS*/
+
+
+/* upcoming section */
+.upcoming {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0 0 7px rgb(162, 162, 162);
+  display: inline-block;
+  margin-top: 66px;
+}
+
+.start-your-mob {
+  width: 300px;
+  height: 210px;
+  display: inline-block;
+  background: #D0CDC7;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 55px;
+  margin-right: 900px;
+}
+
+.start-your-mob h5 {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto 10px auto;
+  text-shadow: 0px 1px 0px #918F8B;
+}
+
+.start-your-mob button {
+  width: 278px;
+  height: 61px;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #7F7B77;
+  margin: 0px auto;
+  box-shadow: inset 0px 1px 0px #FFFFFF;
+  background: linear-gradient(to bottom, #e7e6e3 0%,#d0cdc7 100%);
+  position: relative;
+  top: -49px;
+  right: -11px;
+}
+
+.start-your-mob button:hover {
+  background: linear-gradient(to bottom, #dbdad9 0%,#c4c1bc 100%);
+}
+
+span.start-a-mob {
+  color: #0080B4;
+  font-size: 24px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  text-shadow: 0px 1px 0px #FFFFFF;
+}
+
+.start-your-mob .steps {
+  color: #414141;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  display: inline-block;
+  margin: 5px 18px;
+  text-align: center;
+  position: relative;
+  top: -56px;
+  right: -4px;
+}
+
+.start-your-mob .number {
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  margin: 10px 29px;
+  border-radius: 100px;
+  text-align: center;
+  color: #787878;
+  background: linear-gradient(to bottom, #d5d5d5 0%,#fdfdfd 100%);
+  border: #8C8A86;
+  box-shadow: inset 0px 1px 0px #FFFFFF, 0px 1px 3px 1px #94938C;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-shadow: 0px 1px 0px #F8F8F8;
+  line-height: 37px;
+  position: relative;
+  top: -52px;
+}
+
+.start-your-mob-line {
+  height: 7px;
+  width: 220px;
+  background: #BDBBB5;
+  border: none;
+  margin: 25px auto 16px auto;
+}
+
+
+.connect {
+  width: 220px;
+  margin: 20px 95px 50px 0px;
+  padding: 5px 0px;
+  display: inline-block;
+}
+
+
+form {
+  margin-bottom: 75px;
+}
+
+input {
+  width: 220px;
+  display: inline-block;
+  box-shadow: inset 0 19px 15px -20px #000000;
+  z-index: 50;
+}
+
+.email {
+  width: 160px;
+  height: 45px;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+  border: 0px;
+  padding: 0 0 0 15px;
+  color: #787878;
+  border-right: 1px solid #525252;
+}
+
+.submit {
+  width: 44px;
+  height: 45px;
+  float: left;
+  border-radius: 0px 5px 5px 0px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+  background: #9D9D9D;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.submit:hover {
+  background: #919191;
+}
+
+.submit:active {
+  background: #828282;
+}
+
+
+
+
+
+
