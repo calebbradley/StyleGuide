@@ -240,7 +240,41 @@ input {
   background: #828282;
 }
 
+.element .style {
+top: 242.5px;
+left: 436px;
+display: none;
+}
 
+.Modal.active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.Modal {
+  
+  border: 1px solid rgba(99, 0, 0, 0.82);
+  border-radius: 6px;
+  display:inline-block;
+  color:#333;
+  text-shadow:hsl(0, 0%, 69%) 1px 1px, hsl(0,0%,35%) 1px 2px;
+  text-align: center;
+  box-shadow: 10 19px 15px -20px #333444;
+  cursor: pointer;
+  -webkit-font-smoothing:antialiased;
+  background-image: -webkit-linear-gradient(top, rgba(255, 200, 200, 0.4), rgba(102, 0, 0, 0.4));
+  background-color:#990033;
+  -webkit-transition: background 0.4s ease-out;
+  transition: background 0.2s ease-out;
+}
+
+.Modal:hover {
+  background-color:#6f0000;
+}
 
 
 
